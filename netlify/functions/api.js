@@ -1,6 +1,7 @@
 import express from 'express'
 import mongoose from 'mongoose'
 import 'dotenv/config'
+import serverless from 'serverless-http'
 
 // Middleware
 import cors from 'cors'
